@@ -1,0 +1,29 @@
+{
+  "name": "clarity",
+  "version": "1.0.0",
+  "description": "real-time audio transcriptions",
+  "main": "bot.js",
+  "scripts": {
+    "test": "node ./main/bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/senbun/clarity.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/senbun/clarity/issues"
+  },
+  "homepage": "https://github.com/senbun/clarity#readme",
+  "dependencies": {
+    "@discordjs/opus": "^0.9.0",
+    "@discordjs/voice": "^0.16.1",
+    "discord.js": "^14.14.1",
+    "ffmpeg": "^0.0.4",
+    "libsodium-wrappers": "^0.7.13",
+    "node-crc": "^1.3.2",
+    "node-fs": "^0.1.7",
+    "prism-media": "^2.0.0-alpha.0"
+  }
+}
