@@ -10,8 +10,3 @@ def transcribe_audio(username, filepath):
 
     with open("transcription.txt", "w", encoding="utf-8") as txt:
         txt.write(username + ": " + result["text"] + "\n")
-
-
-# transcribe_audio(
-# "alesso", "/Users/yacquub/home/clarity/main/recordings/1701199552436-alesso.ogg"
-# )
